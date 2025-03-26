@@ -87,7 +87,7 @@ export default function App() {
       <View style={{ flex: 2 }}>
         <WebView
           ref={webviewRef}
-          source={{ uri: 'http://localhost:3000' }}
+          source={{ uri: 'https://wikipedia.org' }}
           injectedJavaScript={BASE_INJECTED_JS}
           onMessage={handleMessage}
           javaScriptEnabled={true}
